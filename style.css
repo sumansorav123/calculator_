@@ -1,0 +1,64 @@
+main{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin: 40px auto;
+    }
+
+.container{
+    padding: 40px;
+    color: #e5fff3;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    background-color: #09201d;
+}
+
+.button-operator , .button-list{
+    display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+       
+
+}
+input{
+    width: 350px;
+    height: 25px;
+    padding: 10px;
+    border-radius: 9px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+}
+
+
+.button-operator button , .button-list button{
+    width: 60px;
+    height: 40px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+    outline: none;
+    color: #e5fff3;
+    background: #ff4e00;
+    border-radius: 9px;
+    border: 0;
+    box-shadow: 5px 3px 7px 4px #0b0000;
+    text-shadow: 0px 0px 0px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.button-operator button:active{
+    background-color: #ff4e00;
+}
+.button-list button:hover{
+    transform: scale(1.3);
+
+}
